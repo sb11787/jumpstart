@@ -1,0 +1,31 @@
+/*Universal Styles*/
+html {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.active {
+
+}
+
+.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.shadow {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.btn:hover {
+  background-image: none;
+  box-shadow: 0 0 3px black;
+  background-color: #399bd1;
+  transition: box-shadow 1s;
+}
+
+.image-container {
+  opacity: .7;
+}
